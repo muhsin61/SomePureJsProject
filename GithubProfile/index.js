@@ -25,6 +25,6 @@ const writeData = (user) => {
         <img src="${user.avatar_url}">
         <h1>${user.name}</h1>
         <p>${user.bio}</p>
-        <a>Look at repos of  ${user.name}</a>`; 
+        <a href="https://github.com/${user.login}">Look at repos of  ${user.name}</a>`; 
     }
 }
