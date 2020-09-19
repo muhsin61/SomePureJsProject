@@ -11,6 +11,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
+    background-color: #BDBF09;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
 }
 .notice{
     position: fixed;
