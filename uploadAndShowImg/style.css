@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    background-color: #0074D9;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+input:focus{
+   outline: none;
+}
+input::before{
+    content: 'Select a image';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 2px solid rgb(161, 158, 158);
+    position: absolute;
+    background-color: #0074D9;
+    width: 296.5px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    color: #dddddd;
+}
+input:active::before{
+    border: 1px solid rgb(80, 73, 73);
+}
+input:hover::before{
+    border: 1px solid rgb(160, 145, 145);
+}
+.showImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dddddd;
+    width: 300px;
+}
+img{
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+.imgName{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    color: #dddddd;
+}
